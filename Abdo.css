@@ -1,0 +1,36 @@
+body{
+    background-color: plum;
+    
+}
+.test{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: pink;
+    margin: 50px auto 0;
+    height: 210px;
+    width: fit-content;
+    word-break: break-word;
+    padding: 5px;
+    font-weight: bold;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width : 690px) {
+    .test {
+        width: 90%;
+        height: auto;
+    }
+}
+.imag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.imag :nth-child(2) {
+    width: 180px;
+    height: 180px;
+}
